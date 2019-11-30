@@ -1,0 +1,23 @@
+{
+  "config": {
+    "title": "EUC Logs",
+    "step": {
+      "pick_implementation": {
+        "title": "Pick Authentication Method"
+      },
+      "extra": {
+        "title": "device name",
+        "data": {
+            "name": "name",
+            "last_file_processed": "last_file_processed"
+        }
+      }
+    },
+    "abort": {
+      "missing_configuration": "The {info.name} component is not configured. Please follow the documentation."
+    },
+    "create_entry": {
+      "default": "Successfully authenticated with EUC Logs."
+    }
+  }
+}

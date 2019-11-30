@@ -1,0 +1,13 @@
+{
+  "domain": "euc_logs",
+  "name": "EUC Logs",
+  "config_flow": true,
+  "documentation": "https://www.home-assistant.io/integrations/euc_logs",
+  "requirements": [],
+  "ssdp": {},
+  "homekit": {},
+  "dependencies": ["recorder"],
+  "codeowners": [
+    "@mrk-its"
+  ]
+}
